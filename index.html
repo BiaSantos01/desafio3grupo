@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <body class="corpo"></body>
+  <div class="container">
+    <h1>Vencedor do 0 ou 1</h1>
+    <label for="valorAlice">Valor de Alice:</label>
+    <input type="number" id="valorAlice" min="0" max="1">
+    <br>
+    <label for="valorBeto">Valor de Beto:</label>
+    <input type="number" id="valorBeto" min="0" max="1">
+    <br>
+    <label for="valorClara">Valor de Clara:</label>
+    <input type="number" id="valorClara" min="0" max="1">
+    <br>
+    <button onclick="determinarVencedor()">Determinar Vencedor</button>
+    <div id="resultado"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
